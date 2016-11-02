@@ -1,0 +1,48 @@
+.info {
+  position: relative;
+
+  .wechat {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    background: url(../images/wechat.png) no-repeat;
+    background-size: cover;
+  }
+
+  .avatar {
+    width: 8rem;
+    height: 8rem;
+
+    border-radius: 50%;
+    box-shadow: 0 0 0 .25rem $white_smoke, 0 0 0 .25rem #999, 0 .125rem .25rem .25rem rgba(0, 0, 0, .2);
+    margin: 1.5rem auto;
+
+    background: url('../images/wuchong.png') center;
+    background-size: cover;
+  }
+
+  .name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: $yankees_blue;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $gunmetal;
+  }
+
+  .contacts {
+    color: $silver;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 3rem;
+
+    .contact {
+      height: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+__MACOSX/
+.DS_Store
+.idea/
+app/libs
+app/styles/main.css
+node_modules

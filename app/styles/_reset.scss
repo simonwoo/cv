@@ -1,0 +1,28 @@
+//////////////////////////////
+//         Reset CSS
+//////////////////////////////
+html, body, div, span, h1, h2, a, em, img, small, strong, dl, dt, dd, ol, ul, li, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-family: monospace, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif; /* 1 */
+  line-height: 1.15; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,111 @@
+.experiences {
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  .works {
+    display: inline-block;
+    padding-left: .83rem;
+    text-align: left;
+  }
+
+  .work {
+    position: relative;
+    border-left: solid $yankees_blue .25rem;
+    padding-left: 1.67rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+
+    .target-border {
+      position: absolute;
+      top: -.25rem;
+      left: -1.21rem;
+
+      width: 1.67rem;
+      height: 1.67rem;
+      border: .25rem solid $white_smoke;
+      border-radius: 50%;
+      background-color: $yankees_blue;
+
+      .target-dot {
+        width: .25rem;
+        height: .25rem;
+        border: .46rem solid $white_smoke;
+        border-radius: 50%;
+        margin: .25rem;
+      }
+    }
+
+    .company {
+      font-size: 1rem;
+      font-weight: bold;
+      color: $deep-space-sparkle;
+      min-height: 1.67rem;
+      line-height: 1.67rem;
+    }
+
+    .title {
+      font-size: .67rem;
+      line-height: normal;
+      color: $silver;
+    }
+
+    time {
+      display: block;
+      font-size: .5rem;
+      color: $gunmetal;
+    }
+
+    .tech-stack {
+      margin-top: .2rem;
+      font-size: .6rem;
+      color: $gray;
+    }
+
+    .description {
+      list-style: initial;
+      margin-top: .4rem;
+      padding-left: 1rem;
+      font-size: .6rem;
+      line-height: .8rem;
+      color: #000;
+
+    }
+  }
+
+  @media screen and (max-width: $screen-phone) {
+
+    .work {
+      position: relative;
+      border-left: none;
+      padding-left: 0;
+
+      .target-border {
+        display: none;
+      }
+
+      .company {
+        &::before {
+          position: absolute;
+          left: -1.2rem;
+          content: '-';
+        }
+      }
+
+      .title {
+        display: block;
+      }
+
+      .description {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (min-width: $screen-tablet) {
+    h1 {
+      margin-bottom: 1rem;
+    }
+  }
+
+}
