@@ -2,10 +2,10 @@
     .avatar {
         width: 8rem;
         height: 8rem;
-        border-radius: 50%;
-        box-shadow: 0 0 0 0.25rem $white_smoke, 0 0 0 0.25rem #999, 0 0.125rem 0.25rem 0.25rem rgba(0, 0, 0, .2);
+        // border-radius: 50%;
+        // box-shadow: 0 0 0 0.25rem $white_smoke, 0 0 0 0.25rem #999, 0 0.125rem 0.25rem 0.25rem rgba(0, 0, 0, .2);
         margin: 1.5rem auto;
-        background: url('../images/wuchong.png') center;
+        background: url('../images/Chong_Wu.png') center;
         background-size: cover;
     }
 
@@ -19,6 +19,13 @@
         font-size: 1.2rem;
         font-weight: bold;
         color: $gunmetal;
+
+        .title-company {
+          font-size: 1rem;
+          font-weight: normal;
+          font-style: italic;
+          color: $silver;
+        }
     }
 
     .contacts {
